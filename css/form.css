@@ -20,4 +20,10 @@
     background: hsl(180, 100%, 25%);
     padding: 10px;
     border: none;
+    transition: 0.3s;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 38%);
+    transform: scale(1.1);
 }

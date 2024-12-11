@@ -119,7 +119,6 @@
         renderTasks();
         bindEvents();
         bindToggleDoneEvents();
-
         renderButtons();
         bindButtonsEvent();
     };

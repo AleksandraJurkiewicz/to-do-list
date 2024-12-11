@@ -4,11 +4,27 @@
     box-shadow: 0 0 5px #ddd;
 }
 
-.section__header {
+.section__header--first {
     margin: 0;
     padding: 20px;
     font-size: 20px;
     border-bottom: 1px solid #ddd;
+}
+
+.section__header--second {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+@media(max-width: 767px) {
+    .section__header--second {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
 }
 
 .section__content {
