@@ -4,13 +4,13 @@
 }
 
 .buttons__button {
-    color: white;
-    background-color: teal;
+    color: teal;
+    background-color: transparent;
     border: none;
     margin: 0 0 0 20px;
-    padding: 10px;
+    padding: 5px 10px;
     transition: 0.3s;
-    scale: 0.8;
+    scale: 0.65;
 }
 
 @media(max-width: 767px) {
@@ -21,14 +21,14 @@
 }
 
 .buttons__button:hover {
-    background-color: hsl(180, 100%, 38%);
+    color: hsl(180, 100%, 38%);
 }
 
 .buttons__button:active {
-    background-color: hsl(180, 100%, 50%);
+    color: hsl(180, 100%, 50%);
 }
 
 .buttons__button:disabled {
+    color: hsl(0, 0%, 70%);
     background-color: transparent;
-    color: hsl(0, 0%, 73%);
 }
