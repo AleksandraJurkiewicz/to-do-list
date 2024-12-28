@@ -1,9 +1,7 @@
 # Aleksandra Jurkiewicz - to do list
-## Demo
-https://aleksandrajurkiewicz.github.io/to-do-list/
 
-### Simple to do list. 
-#### Instruction
+## Simple to do list. 
+### Instruction
 1. Type new task content :)
 2. Click on button "Dodaj zadanie".
 3. Click on green button, if task is done. 
@@ -13,7 +11,7 @@ https://aleksandrajurkiewicz.github.io/to-do-list/
 7. Click on "Pokaż ukończone", if you want to see them again.
 
 
-#### Used technologies
+### Used technologies
 - JavaScript
 - CSS
 - HTML
