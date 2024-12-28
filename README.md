@@ -19,4 +19,4 @@ https://aleksandrajurkiewicz.github.io/to-do-list/
 - HTML
 - BEM
 
-(https://capture.dropbox.com/4U5qiiKisfz3iVux)
+![demo](images/to-do-list.gif)
