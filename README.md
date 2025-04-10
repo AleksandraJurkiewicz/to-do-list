@@ -16,5 +16,7 @@
 - CSS
 - HTML
 - BEM
+- React
+- Redux
 
 ![demo](images/to-do-list.gif)
